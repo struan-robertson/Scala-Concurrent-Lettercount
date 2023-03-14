@@ -2,3 +2,4 @@
 /target/
 /.metals/
 /project/
+/src/main/scala/target
