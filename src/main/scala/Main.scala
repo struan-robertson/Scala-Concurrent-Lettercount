@@ -132,7 +132,7 @@ object Main {
       }
   
   //Read lines from file, send to overseer and await answer
-  def readLines(dir: String, waitTime: Int = 50) : Unit = {
+  def readLines(dir: String, waitTime: Int = 100) : Unit = {
 
     val system = ActorSystem("mappers")
     val mainActor = system.actorOf(Props[Overseer])
