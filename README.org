@@ -1,0 +1,13 @@
+#+title: Scala Concurrent Lettercount
+
+Wrote this last year as part of an assignment, uploading now to include in CV.
+Counts all a-z letters in a file, including uppercase and lowercase in the same count.
+Works using [[https://doc.akka.io/docs/akka/current/typed/index.html][Acca Actors]]  and the [[https://en.wikipedia.org/wiki/MapReduce][MapReduce]] model.
+
+Takes 90s to count all letters in a 5GB version of Bleak House
+
+Run with ~sbt run~
+
+Arguments:
+ 1. File to count letters in
+ 2. Amount of time to wait before calling an error
