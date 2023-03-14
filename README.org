@@ -4,7 +4,7 @@ Wrote this last year as part of an assignment, uploading now to include in CV.
 Counts all a-z letters in a file, including uppercase and lowercase in the same count.
 Works using [[https://doc.akka.io/docs/akka/current/typed/index.html][Acca Actors]]  and the [[https://en.wikipedia.org/wiki/MapReduce][MapReduce]] model.
 
-Takes 90s to count all letters in a 5GB version of Bleak House
+Takes 90s to count all letters in a 5GB version of Bleak House on a Ryzen 9 5950X CPU.
 
 Run with ~sbt run~
 
