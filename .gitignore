@@ -3,3 +3,4 @@
 /.metals/
 /project/
 /src/main/scala/target
+/src/main/scala/.metals
